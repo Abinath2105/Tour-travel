@@ -1,0 +1,113 @@
+.carousel-inner {
+  height: 500px; /* Set the height of the carousel */
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black background for the captions */
+  padding: 20px;
+  color: #fff;
+}
+
+.carousel-caption h4 {
+  font-size: 18px;
+}
+
+.carousel-caption h1 {
+  font-size: 36px;
+}
+
+
+
+
+
+/* Home.css */
+
+/* Styles for the image slider as the background */
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  height: 100vh; /* Set the height of the slider */
+}
+
+.slider {
+  display: flex;
+  height: 100%;
+  width: 300%; /* Three slides, each taking 100% width */
+  transition: transform 0.5s ease; /* Transition for smooth slide animation */
+}
+
+/* Handle transition between slides */
+.slider .slide {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+/* Show active slide */
+.slider .slide.active {
+  opacity: 1;
+}
+
+/* Styles for the slider arrows */
+.slider-arrows {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.slider-arrows button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.slider-arrows button:focus {
+  outline: none;
+}
+
+.slider-arrows button:hover {
+  background-color: #555;
+}
+
+/* Styles for the carousel captions */
+.slide-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.slide-content h4 {
+  font-size: 18px;
+}
+
+.slide-content h1 {
+  font-size: 36px;
+}
+
+/* Styling for the navigation bar */
+/* Add your custom styles for the navigation bar here */
+
+/* Styling for the "Contact Us" section */
+/* Add your custom styles for the "Contact Us" section here */
+
+/* Styling for the footer */
+/* Add your custom styles for the footer here */

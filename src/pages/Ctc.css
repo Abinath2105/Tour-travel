@@ -1,0 +1,45 @@
+
+.cta {
+    background: var(--raisin-black);
+    padding-block: 10px;
+  }
+  
+  .cta-title {
+    color: var(--white);
+    margin-bottom: 30px;
+    align-items: left;
+  }
+  
+  .cta-banner { display: none; }
+  
+  .cta {
+    position: relative;
+    z-index: 1;
+  }
+
+  .cta .title-wrapper { margin-left: -40px;
+    max-width: 70%; }
+
+  .cta-banner {
+    display: block;
+
+    
+    position: absolute;
+    bottom: -26px;
+    left: 51%;
+  }
+  .cta .buton{
+  
+    padding: 20px 30px;
+    border-radius: 15px;
+    background-color: orange;
+    color: #fff;
+    display: inline-block;
+    padding: 1.5rem 2rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease-in-out;
+
+  }
+  

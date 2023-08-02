@@ -1,0 +1,121 @@
+/* TripPlanner.css */
+
+.travel-enquiry-form {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px;
+  margin-top: -50px;
+  
+}
+.planner{
+  background-color: #d5d6cb;
+}
+.planner h2{
+  padding: 10px;
+}
+.form-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.select-box select,
+.check-icon .react-datepicker-wrapper input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.add-trip-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.trip-activities {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.travel-enquiry-form li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.activity-form {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.activity-list {
+  margin-top: 10px;
+}
+
+.activity-list li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.activity-actions {
+  margin-top: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .travel-enquiry-form {
+    flex-direction: column;
+  }
+  .form-content,
+  .trip-activities {
+    margin: 0;
+    padding: 10px;
+  }
+  .form-content .form-group,
+  .trip-activities .trip-list {
+    margin-bottom: 10px;
+  }
+}
+.travel-enquiry-form .h2{
+  text-align: left;
+}
+.form-group .h2{
+  text-align: left;
+}
