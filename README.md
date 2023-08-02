@@ -1,4 +1,11 @@
+### Start the app by npm start.
+
+### The landing page defines about the Travel application.
+
+### The user can create trips and add activity to trips in mytrips sec
+
 # Getting Started with Create React App
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
